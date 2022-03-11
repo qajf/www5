@@ -1,0 +1,20 @@
+baseURL: http://qajf.github.ip/www4
+languageCode: en-us
+title: My New Hugo Site
+canonifyurls: true
+theme: "ananke"  #テーマ
+publishDir: "docs" #GitHub Pagesで読み込むディレクトリにファイルを出力
+
+
+params:
+    defaultTheme: light
+    # defaultTheme: dark
+    #defaultTheme: auto # to switch between dark or light according to browser theme
+params:
+    homeInfoParams:
+        Title: Hi there wave
+        Content: Can be Info, links, about...
+
+    socialIcons: # optional
+        - name: "Github"
+          url: "https://github.com/hntk03"
